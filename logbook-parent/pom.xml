@@ -48,7 +48,9 @@
         <spring-boot2.version>2.6.4</spring-boot2.version>
         <spring-security5.version>5.6.0</spring-security5.version>
 
+        <spring6.version>6.0.2</spring6.version>
         <spring-boot3.version>3.0.0</spring-boot3.version>
+        <spring-security6.version>6.0.0</spring-security6.version>
 
         <spring.version>5.3.16</spring.version>
         <spring-boot.version>2.6.4</spring-boot.version>
