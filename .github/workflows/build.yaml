@@ -39,9 +39,9 @@ jobs:
         distribution: 'zulu'
         java-version: 1.8
     - name: Compile
-      run: ./mvnw clean test-compile -B
+      run: ./mvnw clean test-compile --no-transfer-progress
     - name: Test
-      run: ./mvnw verify -P "${{ matrix.profile }}" -B
+      run: ./mvnw verify -P "${{ matrix.profile }}" --no-transfer-progress
     - name: Coverage
       if: github.event_name != 'pull_request'
-      run: ./mvnw org.eluder.coveralls:coveralls-maven-plugin:4.3.0:report -B -D repoToken=${{ secrets.COVERALLS_TOKEN }}
+      run: ./mvnw org.eluder.coveralls:coveralls-maven-plugin:4.3.0:report --no-transfer-progress -D repoToken=${{ secrets.COVERALLS_TOKEN }}
