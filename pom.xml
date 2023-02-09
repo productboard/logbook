@@ -72,6 +72,12 @@
         <connection>scm:git:git@github.com:productboard/logbook.git</connection>
         <developerConnection>scm:git:git@github.com:productboard/logbook.git</developerConnection>
     </scm>
+    <distributionManagement>
+        <repository>
+            <id>pb-kotlin-common</id>
+            <url>https://maven.pkg.github.com/productboard/pb-kotlin-common</url>
+        </repository>
+    </distributionManagement>
     <profiles>
         <profile>
             <id>release</id>
