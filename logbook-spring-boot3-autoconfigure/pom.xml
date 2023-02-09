@@ -4,7 +4,7 @@
     <parent>
         <groupId>org.zalando</groupId>
         <artifactId>logbook-parent</artifactId>
-        <version>2.15.0-SNAPSHOT</version>
+        <version>2.15.1-pb</version>
         <relativePath>../logbook-parent/pom.xml</relativePath>
     </parent>
     <artifactId>logbook-spring-boot3-autoconfigure</artifactId>
@@ -13,7 +13,8 @@
         <url>https://github.com/zalando/logbook</url>
         <connection>scm:git:git@github.com:zalando/logbook.git</connection>
         <developerConnection>scm:git:git@github.com:zalando/logbook.git</developerConnection>
-    </scm>
+      <tag>logbook-2.15.1-pb</tag>
+  </scm>
     <properties>
         <java.version>17</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
