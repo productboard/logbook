@@ -5,11 +5,11 @@
     <parent>
         <groupId>org.zalando</groupId>
         <artifactId>logbook</artifactId>
-        <version>2.15.3-pb</version>
+        <version>2.15.4-pb-SNAPSHOT</version>
     </parent>
 
     <artifactId>logbook-parent</artifactId>
-    <version>2.15.3-pb</version>
+    <version>2.15.4-pb-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <distributionManagement>
