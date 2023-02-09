@@ -15,13 +15,9 @@
     <packaging>pom</packaging>
 
     <distributionManagement>
-        <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
         <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>pb-kotlin-common</id>
+            <url>https://maven.pkg.github.com/productboard/pb-kotlin-common</url>
         </repository>
     </distributionManagement>
 
